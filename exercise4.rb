@@ -1,11 +1,13 @@
-puts "What's your name?"
+secret_number = 20
 
-user_name = gets.chomp
+puts "What's the secret number?"
 
-if user_name.size > 10
-  puts "hi #{user_name}"
-elsif user_name.size == 10
-  puts "hey #{user_name}"
-else user_name.size < 10
-  puts "hello #{user_name}"
+user_number = gets.chomp.to_i
+
+if user_number == secret_number
+  puts "You win!"
+elsif user_number == secret_number - 1
+  puts "So close!"
+else user_number != secret_number
+  puts "Try again"
 end
