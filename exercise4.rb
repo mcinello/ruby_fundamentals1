@@ -1,7 +1,9 @@
-puts "Type any number"
+puts "How old are you?"
 
-x = gets.to_i
+user_age = gets.to_i
+my_age = 27
 
-unless x == 10
-  puts "I get printed!"
+if user_age > 105
+  puts "we are #{user_age - my_age} years apart."
+  puts "I'm not sure I believe you"
 end
