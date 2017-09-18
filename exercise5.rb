@@ -11,4 +11,4 @@ while user_distance >= 0
     user_distance += 5
     puts "Distance from home is #{user_distance}km"
   end
-end
+end 
