@@ -1,9 +1,8 @@
-puts "How old are you?"
+puts "What's your name?"
 
-user_age = gets.to_i
-my_age = 27
+user_name = gets.chomp
+my_name = "Michelle"
 
-if user_age > 105
-  puts "we are #{user_age - my_age} years apart."
-  puts "I'm not sure I believe you"
+if user_name == my_name
+  puts "#{user_name}? We have the same name!"
 end
