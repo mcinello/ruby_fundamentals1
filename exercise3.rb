@@ -6,6 +6,6 @@
 
 puts "How old are you?"
 
-user_age = gets
+user_age = gets.to_s
 
-puts "You are #{user_age.to_s} years old."
+puts "You are #{user_age} years old."
