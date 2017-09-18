@@ -1,5 +1,11 @@
-puts "What is your name?"
+# puts "What is your name?"
+#
+# user_name = gets
+#
+# puts "Hello, #{user_name}"
 
-user_name = gets
+puts "How old are you?"
 
-puts "Hello, #{user_name}"
+user_age = gets
+
+puts "You are #{user_age.to_s} years old."
